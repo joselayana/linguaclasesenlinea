@@ -496,13 +496,13 @@
                         <form action="https://formsubmit.co/3bbed4633c94aeda229403d4b104f1f8" method="POST">
                             <div class="row g-3">
                                 <div class="col-xl-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Nombre y Apellido" style="height: 55px;" required>
+                                    <input type="text" name="name" class="form-control bg-light border-0" placeholder="Nombre y Apellido" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Email" style="height: 55px;" required>
+                                    <input type="email" name="email" class="form-control bg-light border-0" placeholder="Email" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <select class="form-select bg-light border-0" style="height: 55px;" required>
+                                    <select class="form-select bg-light border-0" style="height: 55px;" name="idioma" required>
                                         <option selected>Idioma</option>
                                         <option value="1">Francés</option>
                                         <option value="2">Italiano</option>
@@ -510,7 +510,7 @@
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <select class="form-select bg-light border-0" style="height: 55px;" required>
+                                    <select class="form-select bg-light border-0" style="height: 55px;" name="nivel" required>
                                         <option selected>Nivel</option>
                                         <option value="1">A1 / A2</option>
                                         <option value="2">B1 / B2</option>
@@ -518,7 +518,7 @@
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Mensaje" required></textarea>
+                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Mensaje" name="mensaje" required></textarea>
                                 </div>
                                 <input type="hidden" name="_subject" value="Consulta registrada en sitio web">
                                 <div class="col-12">
